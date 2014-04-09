@@ -24,7 +24,7 @@ class SnacksController < ApplicationController
   # POST /snacks
   # POST /snacks.json
   def create
-    @snack = Snack.new(snack_params)
+    @snack = current_user.snacks.build(snack_params)
 
     respond_to do |format|
       if @snack.save

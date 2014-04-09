@@ -1,4 +1,6 @@
 Sadie::Application.routes.draw do
+  resources :snacks
+
   devise_for :users
   root 'pages#home'
   get "about" => "pages#about" #creates about path

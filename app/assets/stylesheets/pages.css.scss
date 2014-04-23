@@ -1,3 +1,17 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+.omg {
+  background-image: url("sadiessnack.jpg");
+  background-size: cover;
+  text-align: center;
+   
+}
+
+#title {
+	font-family: "Lobster", cursive;
+	font-size: 72px;
+}

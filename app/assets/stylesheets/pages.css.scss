@@ -2,15 +2,16 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import url(http://fonts.googleapis.com/css?family=Cabin:700);
-@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
-@import url(http://fonts.googleapis.com/css?family=Imprima);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
-h1 {
-	font-family: 'Lobster', cursive;
+.omg {
+  background-image: url("sadiessnack.jpg");
+  background-size: cover;
+  text-align: center;
+   
 }
 
-p {
-	font-family: 'Lato 700', sans-serif;
+#title {
+	font-family: "Lobster", cursive;
+	font-size: 72px;
 }
